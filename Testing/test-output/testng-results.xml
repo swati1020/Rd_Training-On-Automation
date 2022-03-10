@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T11:55:42 IST" name="Suite1" finished-at="2022-02-09T11:55:42 IST" duration-ms="53">
+    <groups>
+    </groups>
+    <test started-at="2022-02-09T11:55:42 IST" name="test1" finished-at="2022-02-09T11:55:42 IST" duration-ms="53">
+      <class name="epam.com.Testing.TestIgnore">
+        <test-method signature="testApp1()[pri:0, instance:epam.com.Testing.TestIgnore@6f46426d]" started-at="2022-02-09T11:55:42 IST" name="testApp1" finished-at="2022-02-09T11:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp1 -->
+      </class> <!-- epam.com.Testing.TestIgnore -->
+      <class name="epam.com.Testing.AppTest">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="beforetest" finished-at="2022-02-09T11:55:42 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="beforeMethod" finished-at="2022-02-09T11:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="shouldAnswerWithTrue" finished-at="2022-02-09T11:55:42 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="afterMethod" finished-at="2022-02-09T11:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="beforeMethod" finished-at="2022-02-09T11:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testApp1()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="testApp1" finished-at="2022-02-09T11:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="afterMethod" finished-at="2022-02-09T11:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testApp2()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="testApp2" finished-at="2022-02-09T11:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="beforeMethod" finished-at="2022-02-09T11:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="afterMethod" finished-at="2022-02-09T11:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:epam.com.Testing.AppTest@2b48a640]" started-at="2022-02-09T11:55:42 IST" name="aftertest" finished-at="2022-02-09T11:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- epam.com.Testing.AppTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

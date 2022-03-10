@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestCatalogue]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="libraryFunction(failed)">
+    <parameter name="searchstr" value="kauti"/>
+    <classes>
+      <class name="epam.com.testautomation.testing.TestCatalogue">
+        <methods>
+          <include name="testARemoveNewlyAddedBook"/>
+          <include name="testCatalogueSearchByBookName"/>
+          <include name="testCatalogueSearchByAuthornameWhchDoesNotExist"/>
+          <include name="testCatalogueSearchByAuthorname"/>
+          <include name="testARemoveNewlyAddedBook2"/>
+          <include name="testCatalogueRemoveBook"/>
+          <include name="testCatalogueSearchByBookNamePara"/>
+          <include name="testCatalogueAddBook"/>
+          <include name="testAddToLibraryWithUnsupportedObject"/>
+        </methods>
+      </class> <!-- epam.com.testautomation.testing.TestCatalogue -->
+    </classes>
+  </test> <!-- libraryFunction(failed) -->
+</suite> <!-- Failed suite [TestCatalogue] -->

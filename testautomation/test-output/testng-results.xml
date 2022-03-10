@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="15" failed="7" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T19:02:24 IST" name="Default suite" finished-at="2022-02-09T19:02:24 IST" duration-ms="383">
+    <groups>
+      <group name="basicOperation">
+        <method signature="TestCatalogue.testCatalogueAddBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueAddBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(epam.com.testautomation.testing.Book)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueAddBooks" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueAddBooks" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveNonExistingBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueRemoveNonExistingBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testAddToLibraryWithSupportedObject()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testAddToLibraryWithSupportedObject" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueRemoveBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+      </group> <!-- basicOperation -->
+      <group name="Alltests">
+        <method signature="TestCatalogue.testARemoveNewlyAddedBook2()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testARemoveNewlyAddedBook2" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testAddToLibraryWithUnsupportedObject()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testAddToLibraryWithUnsupportedObject" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueAddBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testARemoveNewlyAddedBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testARemoveNewlyAddedBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(epam.com.testautomation.testing.Book)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueAddBooks" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueAddBooks" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveNonExistingBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueRemoveNonExistingBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByAuthorname()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueSearchByAuthorname" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByAuthornameWhchDoesNotExist()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueSearchByAuthornameWhchDoesNotExist" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByBookName()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueSearchByBookName" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByBookNamePara(java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueSearchByBookNamePara" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testAddToLibraryWithSupportedObject()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testAddToLibraryWithSupportedObject" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueRemoveBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueRemoveBook" class="epam.com.testautomation.testing.TestCatalogue"/>
+        <method signature="TestCatalogue.testCatalogueSearchByBookNamewhichDoesNotExist()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" name="testCatalogueSearchByBookNamewhichDoesNotExist" class="epam.com.testautomation.testing.TestCatalogue"/>
+      </group> <!-- Alltests -->
+    </groups>
+    <test started-at="2022-02-09T19:02:24 IST" name="Default test" finished-at="2022-02-09T19:02:24 IST" duration-ms="383">
+      <class name="epam.com.testautomation.testing.TestCatalogue">
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="initializeLibrary" finished-at="2022-02-09T19:02:24 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method signature="testAddToLibraryWithUnsupportedObject()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testAddToLibraryWithUnsupportedObject" finished-at="2022-02-09T19:02:24 IST" duration-ms="8" status="FAIL">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Expected exception of type class epam.com.testautomation.testing.LibraryObject but got java.lang.Exception]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Expected exception of type class epam.com.testautomation.testing.LibraryObject but got java.lang.Exception
+at org.testng.internal.invokers.ExpectedExceptionsHolder.wrongException(ExpectedExceptionsHolder.java:67)
+at org.testng.internal.invokers.TestInvoker.considerExceptions(TestInvoker.java:843)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:714)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.Exception
+at epam.com.testautomation.testing.Catalogue.addToLibrary(Catalogue.java:40)
+at epam.com.testautomation.testing.TestCatalogue.testAddToLibraryWithUnsupportedObject(TestCatalogue.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToLibraryWithUnsupportedObject -->
+        <test-method is-config="true" signature="initializeLibrary()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="initializeLibrary" finished-at="2022-02-09T19:02:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeLibrary -->
+        <test-method signature="testCatalogueAddBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBook" finished-at="2022-02-09T19:02:24 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBook -->
+        <test-method signature="testCatalogueAddBooks(epam.com.testautomation.testing.Book)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNamesV2" finished-at="2022-02-09T19:02:24 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[epam.com.testautomation.testing.Book@359df09a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[J K Rowling]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wings of Fire]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[APJ Kalam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Believe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Suresh Raina]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Psycology of Money]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Morgan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rich Dad Poor Dad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Robert]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Zero to One]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arthshashtra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kautilaya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[×›× ×¤×™ ××©]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[×§××•×˜×™×œ×™×”]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ã‚«ã‚¦ãƒ†ã‚£ãƒ©ãƒ¤]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ã‚«ã‚¦ãƒ†ã‚£ãƒ©ãƒ¤]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueAddBooks(int,java.lang.String,java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueAddBooks" data-provider="BookNames" finished-at="2022-02-09T19:02:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[è€ƒææ‹‰äºž]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[è€ƒææ‹‰äºž]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueAddBooks -->
+        <test-method signature="testCatalogueRemoveNonExistingBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueRemoveNonExistingBook" finished-at="2022-02-09T19:02:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueRemoveNonExistingBook -->
+        <test-method signature="testCatalogueSearchByAuthorname()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueSearchByAuthorname" finished-at="2022-02-09T19:02:24 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "epam.com.testautomation.testing.Book.getNameOfTheBook()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "epam.com.testautomation.testing.Book.getNameOfTheBook()" is null
+at epam.com.testautomation.testing.Catalogue.searchBook(Catalogue.java:29)
+at epam.com.testautomation.testing.TestCatalogue.testCatalogueSearchByAuthorname(TestCatalogue.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByAuthorname -->
+        <test-method signature="testCatalogueSearchByAuthornameWhchDoesNotExist()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueSearchByAuthornameWhchDoesNotExist" finished-at="2022-02-09T19:02:24 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "epam.com.testautomation.testing.Book.getNameOfTheBook()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "epam.com.testautomation.testing.Book.getNameOfTheBook()" is null
+at epam.com.testautomation.testing.Catalogue.searchBook(Catalogue.java:29)
+at epam.com.testautomation.testing.TestCatalogue.testCatalogueSearchByAuthornameWhchDoesNotExist(TestCatalogue.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByAuthornameWhchDoesNotExist -->
+        <test-method signature="testCatalogueSearchByBookName()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueSearchByBookName" finished-at="2022-02-09T19:02:24 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "epam.com.testautomation.testing.Book.getNameOfTheBook()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "epam.com.testautomation.testing.Book.getNameOfTheBook()" is null
+at epam.com.testautomation.testing.Catalogue.searchBook(Catalogue.java:29)
+at epam.com.testautomation.testing.TestCatalogue.testCatalogueSearchByBookName(TestCatalogue.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByBookName -->
+        <test-method signature="testCatalogueSearchByBookNamePara(java.lang.String)[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueSearchByBookNamePara" finished-at="2022-02-09T19:02:24 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'searchStr' is required by @Test on method testCatalogueSearchByBookNamePara but has not been marked @Optional or defined
+in C:\Users\Swati_Deshwal\AppData\Local\Temp\testng-eclipse--862019649\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'searchStr' is required by @Test on method testCatalogueSearchByBookNamePara but has not been marked @Optional or defined
+in C:\Users\Swati_Deshwal\AppData\Local\Temp\testng-eclipse--862019649\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:856)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByBookNamePara -->
+        <test-method signature="testAddToLibraryWithSupportedObject()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testAddToLibraryWithSupportedObject" finished-at="2022-02-09T19:02:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToLibraryWithSupportedObject -->
+        <test-method signature="testCatalogueRemoveBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueRemoveBook" finished-at="2022-02-09T19:02:24 IST" duration-ms="9" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [15] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [15] but found [0]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at epam.com.testautomation.testing.TestCatalogue.testCatalogueRemoveBook(TestCatalogue.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueRemoveBook -->
+        <test-method signature="testCatalogueSearchByBookNamewhichDoesNotExist()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testCatalogueSearchByBookNamewhichDoesNotExist" finished-at="2022-02-09T19:02:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCatalogueSearchByBookNamewhichDoesNotExist -->
+        <test-method signature="testARemoveNewlyAddedBook2()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testARemoveNewlyAddedBook2" depends-on-groups="basicOperation" finished-at="2022-02-09T19:02:24 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestCatalogue.testARemoveNewlyAddedBook2()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d] depends on not successfully finished methods in group "basicOperation"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestCatalogue.testARemoveNewlyAddedBook2()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d] depends on not successfully finished methods in group "basicOperation"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testARemoveNewlyAddedBook2 -->
+        <test-method signature="testARemoveNewlyAddedBook()[pri:0, instance:epam.com.testautomation.testing.TestCatalogue@69997e9d]" started-at="2022-02-09T19:02:24 IST" name="testARemoveNewlyAddedBook" finished-at="2022-02-09T19:02:24 IST" depends-on-methods="epam.com.testautomation.testing.TestCatalogue.testCatalogueAddBook" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-1] but found [0]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at epam.com.testautomation.testing.TestCatalogue.testARemoveNewlyAddedBook(TestCatalogue.java:153)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testARemoveNewlyAddedBook -->
+      </class> <!-- epam.com.testautomation.testing.TestCatalogue -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

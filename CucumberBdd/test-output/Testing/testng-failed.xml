@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserName" value="chrome"/>
+  <parameter name="orangeHRMBaseURL" value=""/>
+  <parameter name="orangeHRMTestExecutionPlatform" value="LocalWebDriver"/>
+  <test thread-count="5" name="SeleniumAutomation(failed)">
+    <classes>
+      <class name="epam.com.CucumberBdd.feature.TestCalculatorWithCucumberRunner">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+          <include name="testCucumberScenarios"/>
+        </methods>
+      </class> <!-- epam.com.CucumberBdd.feature.TestCalculatorWithCucumberRunner -->
+    </classes>
+  </test> <!-- SeleniumAutomation(failed) -->
+</suite> <!-- Failed suite [Testing] -->

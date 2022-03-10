@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing">
+
+
+<test name="SeleniumAutomation">
+<classes>
+<class name="epam.com.POM_Assignment.TestOrangeHRMLoginPage"/> 
+<!-- <class name="epam.com.OrangerHRM.Pages.OrangeHRMPages" /> -->
+</classes>
+</test>
+</suite>

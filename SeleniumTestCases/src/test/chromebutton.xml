@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MySuite_Reporter" >
+<listeners>
+<listener class-name="epam.com.SeleniumTool.LoginPageListnerImpl.ReporterImpl"/>
+</listeners>
+<test name="ReportChecking" >
+<classes>
+<class name="epam.com.SeleniumTool.LoginPageListnerImpl.TestLoginForListeners"/>
+</classes>
+</test>
+</suite>
+

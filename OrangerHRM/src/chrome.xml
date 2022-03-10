@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing">
+
+
+<parameter name="BrowserName" value= "chrome"></parameter>
+
+<parameter name="orangeHRMTestExecutionPlatform" value="SauceWebDriver"></parameter>
+
+<parameter name="orangeHRMBaseURL" value="https://prasoonr-trials73.orangehrmlive.com/"></parameter>
+<parameter name="orangeHRMUserName" value="Admin"></parameter>
+<parameter name="orangeHRMPassword" value="U@qBLVtm09"></parameter>
+
+<test name="SeleniumAutomation">
+<classes>
+<class name="epam.com.OrangerHRM.DriverFactory.TestLoginPage.TestLoginPage"/> 
+<!-- <class name="epam.com.OrangerHRM.Pages.OrangeHRMPages" /> -->
+</classes>
+</test>
+</suite>

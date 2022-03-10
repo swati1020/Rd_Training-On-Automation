@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<test name="RestAPI">
+<parameter name="token" value="656053126c4bdefa6769732495648f67f54493c7"></parameter>
+<parameter name="cookies" value="5; orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=846b75fba4d26b990d3fa5dcf9370a97"></parameter>
+<classes>
+<class name="epam.com.RestApiTesting.NewTestForRestApi" />
+</classes>
+</test>
+</suite>

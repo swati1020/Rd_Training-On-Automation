@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestCatalogue">
+  <test name="libraryFunction" >
+
+
+<include name="Alltests"/>
+<parameter name="searchstr" value="kauti"/>
+
+
+    <classes>
+      <class name="epam.com.testautomation.testing.TestCatalogue"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
