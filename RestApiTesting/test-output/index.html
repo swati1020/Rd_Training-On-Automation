@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Testing" class="navigator-link">
-              <span class="suite-name border-failed">Testing</span>
+              <span class="suite-name border-passed">Testing</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,36 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 4 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Testing" class="hide-methods failed suite-Testing"> (hide)</a> <!-- hide-methods failed suite-Testing -->
-                      <a href="#" panel-name="suite-Testing" class="show-methods failed suite-Testing"> (show)</a> <!-- show-methods failed suite-Testing -->
-                    </span>
-                    <div class="method-list-content failed suite-Testing">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="navigatingToAttendanceMenu">navigatingToAttendanceMenu</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingDeletingMsgOnAttendanceSheet">testingDeletingMsgOnAttendanceSheet</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingPunchOutWithGivingInvalidTime">testingPunchOutWithGivingInvalidTime</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingWithTimeAndDateInPunchInPage">testingWithTimeAndDateInPunchInPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Testing -->
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -133,12 +104,32 @@
                     <div class="method-list-content passed suite-Testing">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="navigatingToAttendanceMenu">navigatingToAttendanceMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testOrangeHrmPage">testOrangeHrmPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingDeletingMsgOnAttendanceSheet">testingDeletingMsgOnAttendanceSheet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingPunchOutWithGivingInvalidTime">testingPunchOutWithGivingInvalidTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingTotalTimeHoursOnAttendanceSheet">testingTotalTimeHoursOnAttendanceSheet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="UiUsingSelenium.TestLoginPage" class="method navigator-link" hash-for-method="testingWithTimeAndDateInPunchInPage">testingWithTimeAndDateInPunchInPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Testing -->
@@ -153,9 +144,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Testing" class="panel Testing">
-          <div class="suite-Testing-class-failed">
+          <div class="suite-Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">UiUsingSelenium.TestLoginPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -164,157 +155,8 @@
                   <a name="navigatingToAttendanceMenu">
                   </a> <!-- navigatingToAttendanceMenu -->
                   <span class="method-name">navigatingToAttendanceMenu</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=99.0.4844.51)
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;EPINPUNW039D&apos;, ip: &apos;172.20.10.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e112e97f27fbbcabec17311e765e2f2, clickElement {id=ad44d4d9-d0c5-46a2-b267-d1fcaf73f414}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SWATI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53566/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (9e112e97f27fbbcabec17311e765e2f2)] -&gt; xpath: //span[text()=&apos;Punch In/Out&apos;]]
-Session ID: 9e112e97f27fbbcabec17311e765e2f2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at UiUsingSelenium.pages.Dashboard.clickOnPunchinPunchOutMenu(Dashboard.java:54)
-	at UiUsingSelenium.TestLoginPage.navigatingToAttendanceMenu(TestLoginPage.java:94)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 36 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testingDeletingMsgOnAttendanceSheet">
-                  </a> <!-- testingDeletingMsgOnAttendanceSheet -->
-                  <span class="method-name">testingDeletingMsgOnAttendanceSheet</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;timesheetDate&apos;][(text()=&quot;10 Mar&quot;)]//parent::span//parent::div//parent::li//div[@aria-label=&apos;Delete&apos;]&quot;}
-  (Session info: chrome=99.0.4844.51)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;EPINPUNW039D&apos;, ip: &apos;172.20.10.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e112e97f27fbbcabec17311e765e2f2, findElement {using=xpath, value=//div[@class=&apos;timesheetDate&apos;][(text()=&quot;10 Mar&quot;)]//parent::span//parent::div//parent::li//div[@aria-label=&apos;Delete&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SWATI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53566/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e112e97f27fbbcabec17311e765e2f2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at UiUsingSelenium.pages.AttendanceSheet.clickDeleteButtonFromMyAttendanceSheet(AttendanceSheet.java:65)
-	at UiUsingSelenium.TestLoginPage.testingDeletingMsgOnAttendanceSheet(TestLoginPage.java:130)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testingPunchOutWithGivingInvalidTime">
-                  </a> <!-- testingPunchOutWithGivingInvalidTime -->
-                  <span class="method-name">testingPunchOutWithGivingInvalidTime</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at UiUsingSelenium.pages.PunchOut.selectPunchOutDateFromPunchInOutPage(PunchOut.java:41)
-	at UiUsingSelenium.TestLoginPage.testingPunchOutWithGivingInvalidTime(TestLoginPage.java:110)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;dateTextInput&apos;]&quot;}
-  (Session info: chrome=99.0.4844.51)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;EPINPUNW039D&apos;, ip: &apos;172.20.10.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e112e97f27fbbcabec17311e765e2f2, findElement {using=xpath, value=//input[@name=&apos;dateTextInput&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SWATI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53566/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e112e97f27fbbcabec17311e765e2f2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
-	... 32 more
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testingWithTimeAndDateInPunchInPage">
-                  </a> <!-- testingWithTimeAndDateInPunchInPage -->
-                  <span class="method-name">testingWithTimeAndDateInPunchInPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at UiUsingSelenium.pages.PunchInPage.selectPunchInDateFromPunchInOutPage(PunchInPage.java:33)
-	at UiUsingSelenium.TestLoginPage.testingWithTimeAndDateInPunchInPage(TestLoginPage.java:101)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;dateTextInput&apos;]&quot;}
-  (Session info: chrome=99.0.4844.51)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;EPINPUNW039D&apos;, ip: &apos;172.20.10.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e112e97f27fbbcabec17311e765e2f2, findElement {using=xpath, value=//input[@name=&apos;dateTextInput&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\SWATI_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53566/devtoo..., se:cdpVersion: 99.0.4844.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e112e97f27fbbcabec17311e765e2f2
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
-	... 32 more
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Testing-class-failed -->
-          <div class="suite-Testing-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">UiUsingSelenium.TestLoginPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="testOrangeHrmPage">
@@ -324,9 +166,30 @@ Session ID: 9e112e97f27fbbcabec17311e765e2f2
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testingDeletingMsgOnAttendanceSheet">
+                  </a> <!-- testingDeletingMsgOnAttendanceSheet -->
+                  <span class="method-name">testingDeletingMsgOnAttendanceSheet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingPunchOutWithGivingInvalidTime">
+                  </a> <!-- testingPunchOutWithGivingInvalidTime -->
+                  <span class="method-name">testingPunchOutWithGivingInvalidTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testingTotalTimeHoursOnAttendanceSheet">
                   </a> <!-- testingTotalTimeHoursOnAttendanceSheet -->
                   <span class="method-name">testingTotalTimeHoursOnAttendanceSheet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingWithTimeAndDateInPunchInPage">
+                  </a> <!-- testingWithTimeAndDateInPunchInPage -->
+                  <span class="method-name">testingWithTimeAndDateInPunchInPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -393,29 +256,29 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testingPunchOutWithGivingInvalidTime')
+data.setCell(0, 1, 'testingWithTimeAndDateInPunchInPage')
 data.setCell(0, 2, 'UiUsingSelenium.TestLoginPage')
-data.setCell(0, 3, 33502);
+data.setCell(0, 3, 23862);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testingWithTimeAndDateInPunchInPage')
+data.setCell(1, 1, 'testingPunchOutWithGivingInvalidTime')
 data.setCell(1, 2, 'UiUsingSelenium.TestLoginPage')
-data.setCell(1, 3, 30257);
+data.setCell(1, 3, 16186);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testingTotalTimeHoursOnAttendanceSheet')
+data.setCell(2, 1, 'testingDeletingMsgOnAttendanceSheet')
 data.setCell(2, 2, 'UiUsingSelenium.TestLoginPage')
-data.setCell(2, 3, 13036);
+data.setCell(2, 3, 15794);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testingDeletingMsgOnAttendanceSheet')
+data.setCell(3, 1, 'testingTotalTimeHoursOnAttendanceSheet')
 data.setCell(3, 2, 'UiUsingSelenium.TestLoginPage')
-data.setCell(3, 3, 10375);
+data.setCell(3, 3, 13457);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testOrangeHrmPage')
 data.setCell(4, 2, 'UiUsingSelenium.TestLoginPage')
-data.setCell(4, 3, 3888);
+data.setCell(4, 3, 9482);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'navigatingToAttendanceMenu')
 data.setCell(5, 2, 'UiUsingSelenium.TestLoginPage')
-data.setCell(5, 3, 303);
+data.setCell(5, 3, 1062);
 window.suiteTableData['Testing']= { tableData: data, tableDiv: 'times-div-Testing'}
 return data;
 }
@@ -448,44 +311,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">UiUsingSelenium.TestLoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(org.testng.TestRunner@7af0affa)</span>
+                <span class="method-name">setup(org.testng.TestRunner@5d1e0fbb)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testOrangeHrmPage</span>
-                <span class="method-start">6471 ms</span>
+                <span class="method-start">11929 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">navigatingToAttendanceMenu</span>
-                <span class="method-start">10367 ms</span>
+                <span class="method-start">21428 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testingWithTimeAndDateInPunchInPage</span>
-                <span class="method-start">10867 ms</span>
+                <span class="method-start">22494 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testingPunchOutWithGivingInvalidTime</span>
-                <span class="method-start">41581 ms</span>
+                <span class="method-start">46362 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testingTotalTimeHoursOnAttendanceSheet</span>
-                <span class="method-start">75354 ms</span>
+                <span class="method-start">62553 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testingDeletingMsgOnAttendanceSheet</span>
-                <span class="method-start">88391 ms</span>
+                <span class="method-start">76015 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">99022 ms</span>
+                <span class="method-start">91812 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
